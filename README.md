@@ -35,5 +35,3 @@ Also, there is module tests.py that contains unit tests. You can run it by typin
 $ python tests.py
 
 ```
-
-TEST-TEST-TEST!!!
