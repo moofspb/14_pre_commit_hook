@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [[ `python3 tests.py` ]]
 then
@@ -7,3 +7,7 @@ then
 else
 	echo "> Tests passed !"
 fi
+
+echo "Ready to commit!"
+
+exit 0
