@@ -1,13 +1,14 @@
-#!/bin/bash
+#!/bin/sh
 
-if [[ `python3 tests.py` ]]
+`python3 tests.py`
+
+if [[ $? = 0 ]]
 then
-	echo "> Tests DID NOT pass !"
-	exit 1
+    echo "> Tests passed"
 else
-	echo "> Tests passed !"
+    echo "> Tests DID NOT pass"
+    exit 1
 fi
 
-echo "Ready to commit!"
-
+echo "Ready to commit"
 exit 0
