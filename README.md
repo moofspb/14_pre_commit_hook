@@ -23,7 +23,6 @@ from quadratic_equation import get_roots
 roots = get_roots(1, 3, -4)
 roots
 (-4.0, 1.0)
-
 ```
 
 # Tests
@@ -33,5 +32,4 @@ Also, there is module tests.py that contains unit tests. You can run it by typin
 ```#!bash
 
 $ python tests.py
-
 ```
