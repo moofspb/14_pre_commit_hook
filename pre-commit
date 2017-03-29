@@ -1,3 +1,9 @@
 #!/bin/sh
 
-python3 tests.py
+if [[ `python3 tests.py` ]]
+then
+	echo "> Tests DID NOT pass !"
+	exit 1
+else
+	echo "> Tests passed !"
+fi
